@@ -1,0 +1,286 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?o3aka3');
+  src:  url('../fonts/icomoon.eot?o3aka3#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?o3aka3') format('truetype'),
+    url('../fonts/icomoon.woff?o3aka3') format('woff'),
+    url('../fonts/icomoon.svg?o3aka3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uniE900:before {
+  content: "\e900";
+}
+.content-white-box{
+    padding: 32px; background: #fff;
+    margin-bottom: 10px;
+}
+
+.tablebox{
+    display: table;
+}
+.tablebox .table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.routerlink{
+    color: inherit;
+}
+.gray-link{
+    color:rgba(0,0,0,0.65);
+    cursor: pointer;
+}
+.gray-link:hover{
+    color:rgba(0,0,0,0.85);
+}
+
+.pagination-box{
+  padding: 24px 0;
+  text-align: right;
+}
+/*表单label左对齐，对外添加类名form-item-label-left*/
+.form-item-label-left .ant-form-item-label{
+  text-align: left;
+}
+.form-item-label-left .ant-form-item-label label{
+  color:rgba(0,0,0,0.65);
+  font-size: 16px;
+}
+.form-item-label-left .ant-form-extra{
+  font-size: 12px;
+  line-height: 1;
+}
+/*左侧有蓝色边框的标题*/
+.big-border-title{
+  font-size:20px;
+  font-weight:600;
+  color:rgba(0,0,0,0.65);
+  padding-left: 8px;
+  border-left: 3px solid #044FE8;
+  margin-bottom: 32px;
+  line-height: 20px;
+  padding-top: 6px;
+}
+.btn-link{
+    color: #1890FF;
+    cursor: pointer;
+}
+.btn-link:hover{
+    color: #156EC1;
+}
+.btn-link.disabled{
+    color:rgba(0,0,0,0.15);
+    cursor: not-allowed;
+}
+
+.red{
+    color: #E6242E;
+}
+/*tab 背景色样式，店铺设置资质信息中使用*/
+.myTab .ant-tabs-bar{
+  border-bottom: none;
+}
+.myTab .ant-tabs-nav{
+  border: 1px solid rgba(217,217,216,1);
+}
+.myTab .ant-tabs-tab{
+  width: 108px;
+  height: 38px;
+  background: rgba(153,153,153,1);
+  border-left: 1px solid rgba(217,217,216,1);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  line-height: 38px;
+  padding: 0;
+}
+.myTab .ant-tabs-tab:first-child{
+  border-left:none;
+}
+.myTab .ant-tabs-tab-active{
+  background: #fff;
+  color: #333;
+  border-bottom: 1px solid rgba(217,217,216,1);
+}
+.myTab .ant-tabs-ink-bar{
+  top: -1px;
+  width: 108px!important;
+}
+.myTab .ant-tabs-tab:not(.ant-tabs-tab-active):hover {
+  color: #fff;
+}
+
+
+.red,.danger{
+    color: #E6242E;
+}
+.primary{
+    color: #1890FF;
+}
+.success{
+    color: #52C41A;
+}
+
+img{
+    max-width: 100%;
+}
+.ant-modal-mask{
+    background:rgba(0,0,0,0.3);
+}
+
+/*操作提示*/
+.alertinfobox{
+    font-size: 12px;
+}
+.alertinfobox ul{
+    list-style: none;
+    padding: 0;
+    padding-top: 4px;
+    margin: 0;
+}
+.alertinfobox ul li{
+    padding-top: 10px;
+    padding-left: 4px;
+}
+
+/*左侧有蓝色边框的标题*/
+.big-border-title{
+    font-size:20px;
+    font-weight:600;
+    color:rgba(0,0,0,0.65);
+    padding-left: 8px;
+    border-left: 3px solid #1890FF;
+    margin-bottom: 32px;
+    line-height: 20px;
+    padding-top: 6px;
+}
+.big-border-title .subinfo{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 12px;
+    color:rgba(0,0,0,0.45);
+}
+
+/*表单label左对齐，对外添加类名form-item-label-left*/
+.form-item-label-left .ant-form-item-label{
+    text-align: left;
+}
+.form-item-label-left .ant-form-item-label label{
+    color:rgba(0,0,0,0.65);
+    font-size: 16px;
+}
+.form-item-label-left .ant-form-extra{
+    font-size: 12px;
+    line-height: 1;
+}
+
+/*图片块，可点击查看大图*/
+.previewImgbox{
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.15);
+    width: 104px;
+    height: 104px;
+    display: inline-block;
+    position: relative;
+    padding: 8px;
+}
+.previewImgbox .imgbox{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #F3F3F3;
+}
+.previewImgbox img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+.previewImgbox .showbigbtn{
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    background: rgba(0,0,0,1);
+    opacity: 0.4;
+    color: #fff;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+}
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  height: 1px;
+  border-radius: 1px;
+  background: rgba(24,144,255,1);
+}
+.scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  background: rgba(0,0,0,0.15);
+}
+
+/*tab 按钮样式，选中上面有蓝色线条*/
+.steplist{
+    border-right: 1px solid #D9D9D8;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.steplist .btn{
+    background: #999999;
+    border: 1px solid #D9D9D8;
+    border-right: none;
+    color: #fff;
+    width: 108px;
+    height: 38px;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+.steplist .btn.active{
+    background: #fff;
+    color: #333;
+    position: relative;
+}
+.steplist .btn.active:after{
+    content: "";
+    position: absolute;
+    top: -1px;
+    width: 100%;
+    height: 2px;
+    background: #1890FF;
+    left: 0;
+}
+
+.breakword{
+  word-break: break-all;
+}
